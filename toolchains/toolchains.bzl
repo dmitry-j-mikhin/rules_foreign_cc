@@ -21,7 +21,6 @@ def preinstalled_toolchains():
         "@rules_foreign_cc//toolchains:preinstalled_automake_toolchain",
         "@rules_foreign_cc//toolchains:preinstalled_m4_toolchain",
         "@rules_foreign_cc//toolchains:preinstalled_pkgconfig_toolchain",
-        "@rules_foreign_cc//toolchains:preinstalled_nmake_toolchain",
     )
 
 def _current_toolchain_impl(ctx):
